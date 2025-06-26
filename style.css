@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+#kissBtn {
+  background-color: #ff5e7e;
+  color: white;
+}
+
+#kissBtn:hover {
+  background-color: #ff3b61;
+}
+
+#musicBtn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#musicBtn:hover {
+  background-color: #45a049;
+}
+
+.heart {
+  position: absolute;
+  font-size: 24px;
+  animation: floatUp 2s ease-out forwards;
+  color: #ff5e7e;
+}
+
+@keyframes floatUp {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-150px);
+  }
+}
+
+/* Image fade-in */
+#surpriseImg {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+#surpriseImg.show {
+  opacity: 1;
+}
