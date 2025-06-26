@@ -3,11 +3,12 @@ const musicBtn = document.getElementById('musicBtn');
 const bgMusic = document.getElementById('bgMusic');
 const heartsContainer = document.getElementById('hearts');
 const surpriseImg = document.getElementById('surpriseImg');
+const imageCover = document.getElementById('imageCover');
 
 kissBtn.addEventListener('click', () => {
   createHearts();
   musicBtn.style.display = 'inline-block';
-  showImage();
+  revealImage();
 });
 
 musicBtn.addEventListener('click', () => {
@@ -29,9 +30,15 @@ function createHearts() {
   }
 }
 
-function showImage() {
+function revealImage() {
   surpriseImg.style.display = 'block';
   setTimeout(() => {
     surpriseImg.classList.add('show');
   }, 50);
+
+  // Fade out then fully hide the image cover
+  imageCover.style.opacity = '0';
+  setTimeout(() => {
+    imageCover.style.display = 'none';
+  }, 1000);
 }
