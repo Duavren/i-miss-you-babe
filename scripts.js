@@ -36,7 +36,6 @@ function revealImage() {
     surpriseImg.classList.add('show');
   }, 50);
 
-  // Fade out then fully hide the image cover
   imageCover.style.opacity = '0';
   setTimeout(() => {
     imageCover.style.display = 'none';

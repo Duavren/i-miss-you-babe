@@ -1,0 +1,2 @@
+# i-miss-you-babe
+Hi, Dani. I made this small thing for you. I just really wanted to give you something that might make you smile, even just a little. I hope you like it. Enjoy your peace and quiet for now, Babe. I know you just want to rest and be with your thoughts, and that’s okay. I’ll try to sleep soon too. Good night Mwa! I love you! im bowing my head right now while typing this :>. Let me know if it's too sweet. Goodnight!
